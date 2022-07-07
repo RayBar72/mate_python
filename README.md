@@ -1,3 +1,3 @@
 # mate_python
 
-Exercises on mathematical functions made with basic Python modules
+Taking Holberton's math exercises and made them with basic Python modules
