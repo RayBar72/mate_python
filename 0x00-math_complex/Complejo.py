@@ -1,6 +1,5 @@
 #!usr/bin/env python3
 '''Structure “complex” where a complex number a + ib is represented by two doubles'''
-from cmath import cos
 import math
 
 
@@ -111,9 +110,9 @@ class Complejo(object):
         y = Complejo(0, 0)
         div = x.re ** 2 + x.im ** 2
         y = Complejo.multiplication(c1, x)
-        print(x)
-        print(div)
-        print(y)
+        # print(x)
+        # print(div)
+        # print(y)
         y.re = y.re / div
         y.im = y.im / div
         return y
